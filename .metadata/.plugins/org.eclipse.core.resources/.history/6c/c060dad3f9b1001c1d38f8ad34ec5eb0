@@ -1,0 +1,14 @@
+package com.harman.ui;
+
+import com.harman.model.Student;
+
+public class StudentApp {
+
+	public static void main(String[] args) {
+		Student S1= new Student();
+		Student S2= new Student();
+		
+
+	}
+
+}

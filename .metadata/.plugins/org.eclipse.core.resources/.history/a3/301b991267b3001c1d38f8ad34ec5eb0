@@ -1,0 +1,8 @@
+package com.harman.model;
+
+import java.lang.annotation.Documented;
+
+@Documented
+public @interface override {
+
+}

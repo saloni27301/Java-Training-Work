@@ -1,0 +1,46 @@
+package com.harman.model;
+
+public abstract class Shape {
+	private double FirstDimension;
+	private double SecondDimension;
+	
+	
+	
+	public Shape() {
+		/*Default Constructor*/
+	}
+
+
+	public Shape(double firstDimension, double secondDimension) {
+		FirstDimension = firstDimension;
+		SecondDimension = secondDimension;
+	}
+
+
+	public double getFirstDimension() {
+		return FirstDimension;
+	}
+
+
+	public void setFirstDimension(double firstDimension) {
+		FirstDimension = firstDimension;
+	}
+
+
+	public double getSecondDimension() {
+		return SecondDimension;
+	}
+
+
+	public void setSecondDimension(double secondDimension) {
+		SecondDimension = secondDimension;
+	}
+
+
+	public abstract double getArea();
+	
+	
+	
+	
+
+}

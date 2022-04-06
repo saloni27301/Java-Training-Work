@@ -1,0 +1,23 @@
+package com.harman.ui;
+
+
+import com.harman.model.Product2;
+
+public class productApp2 {
+
+	public static void main(String[] args) {
+		Product2.settax(10);//static methods cane simply call by their Name
+		Product2.setid(5);
+		Product2 P1=new Product2();
+		
+		P1.setName("Java");
+		Product2 P2= new Product2();
+		//Product2.setid(25);
+		//Product2.settax(100);
+		P2.setName("C++");
+		System.out.println(Product2.getid()+" "+P1.getName()+" "+Product2.gettax());
+		System.out.println(Product2.getid()+" "+P2.getName()+" "+Product2.gettax());
+
+	}
+
+}

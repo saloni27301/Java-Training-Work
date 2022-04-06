@@ -1,0 +1,13 @@
+package com.harman.ui;
+
+public class BoxingAndUnboxingDemo {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("removal")
+		Integer iobj=new Integer(100);
+		System.out.println(iobj);//boxing
+		
+		int a= iobj;
+		System.out.println(a);
+	}
+}

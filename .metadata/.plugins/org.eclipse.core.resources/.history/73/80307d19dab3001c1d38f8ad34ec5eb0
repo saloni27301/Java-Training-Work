@@ -1,0 +1,5 @@
+package com.harman.Exception;
+
+public class InSuffuicientBalanceException extends Exception {
+
+}

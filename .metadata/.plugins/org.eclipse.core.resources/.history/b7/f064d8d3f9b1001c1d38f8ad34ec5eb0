@@ -1,0 +1,16 @@
+package com.harman.model;
+
+public class Student {
+
+		static {
+			System.out.println("Static Block");
+		}
+		{
+			System.out.println("In Block");
+		}
+		public Student(){
+			System.out.println("Default Constructor");
+		}
+		
+
+	}

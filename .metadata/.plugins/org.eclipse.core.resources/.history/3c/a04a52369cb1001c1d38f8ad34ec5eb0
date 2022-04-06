@@ -1,0 +1,19 @@
+package com.harman.ui;
+
+import com.harman.model.Point;
+
+public class pointApp {
+
+	public static void main(String[] args) {
+		Point P1=new Point();
+		P1.setX11(5);
+		P1.setX12(4);
+		P1.setY11(1);
+		P1.setY12(2);
+		P1.distance();
+		System.out.println(P1.getX1()+"\t"+P1.getX12()+"\t"+P1.getY11()+"\t"+P1.getY12());
+		System.out.println(P1.distance());
+		System.out.println(P1.midpoint());
+	}
+
+}

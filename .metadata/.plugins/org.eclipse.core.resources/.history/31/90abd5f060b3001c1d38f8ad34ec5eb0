@@ -1,0 +1,20 @@
+package com.harman.model;
+
+public class Rectangle extends Shape {
+
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Rectangle(double FirstDimension, double SecondDimension) {
+		super(FirstDimension, SecondDimension);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

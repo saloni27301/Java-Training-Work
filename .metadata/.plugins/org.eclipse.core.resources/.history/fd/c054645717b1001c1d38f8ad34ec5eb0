@@ -1,0 +1,12 @@
+package com.harman.ui;
+
+public class ComplexNumberApp {
+
+	public static void main(String[] args) {
+		ComplexNumber C1= new ComplexNumber();
+		C1.realPart=10;
+		C1.imaginaryPart=20;
+		System.out.println(C1);
+	}
+
+}

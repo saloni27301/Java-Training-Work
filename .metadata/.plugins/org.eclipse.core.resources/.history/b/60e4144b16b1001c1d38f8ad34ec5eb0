@@ -1,0 +1,13 @@
+package com.harman.ui;
+
+public class CallByValue {
+	static void change(int num) {
+		num++;
+	}
+	public static void main(String[] args) {
+		int number=10;
+		change(number);
+		System.out.println(number);
+		}
+
+	}

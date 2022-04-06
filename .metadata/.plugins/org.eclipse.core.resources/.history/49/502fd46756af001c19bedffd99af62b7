@@ -1,0 +1,23 @@
+package com.harman.ui;
+
+public class floydTriangle {
+
+	public static void main(String[] args) {
+		int num = Integer.parseInt(args[0]);
+		//int Row = Integer.parseInt(args[1]);
+		//int Col = Integer.parseInt(args[2]);
+		for(int i=1;i<=num;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.println(num+" " );
+				num++;
+		
+			}
+		}
+		System.outprintln();
+
+	}
+
+}
+

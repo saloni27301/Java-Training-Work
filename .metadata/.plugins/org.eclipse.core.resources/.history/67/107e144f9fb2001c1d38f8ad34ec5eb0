@@ -1,0 +1,15 @@
+package com.harman.model;
+
+public class StudentE extends Person {
+	private double fee;
+	public StudentE() {
+		/*Default Constructor*/
+	}
+
+	public StudentE(String Name, int age,double fee) {
+		super(Name, age);
+		this.fee=fee;
+	}
+	
+
+}

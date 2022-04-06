@@ -1,0 +1,14 @@
+package com.harman.model;
+
+public class Employee extends Person {
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String Name, int age) {
+		super(Name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+}

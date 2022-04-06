@@ -1,0 +1,16 @@
+package com.harman;
+
+public class practice1 {
+	public static void main(String[] args) {
+		Person p1=new Person();
+		System.out.println(p1.age+" "+p1.name);
+		Person p2 = new Person();
+		System.out.println(p2.age+" "+p2.name);
+		
+	}
+
+}
+class Person{
+	int age;
+	int name;
+}

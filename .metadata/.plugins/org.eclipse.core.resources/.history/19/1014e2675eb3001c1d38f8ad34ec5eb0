@@ -1,0 +1,14 @@
+package com.harman.model;
+
+public class Rectangle extends Shape {
+
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Rectangle(int firstDimension, int seconDimension) {
+		super(firstDimension, seconDimension);
+		// TODO Auto-generated constructor stub
+	}
+
+}

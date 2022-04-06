@@ -1,0 +1,14 @@
+package com.harman.model;
+
+public class Shape {
+	private int FirstDimension;
+	private int SecondDimension;
+	public Shape(int firstDimension, int secondDimension) {
+		FirstDimension = firstDimension;
+		SecondDimension = secondDimension;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,32 @@
+package com.harman.model;
+
+public class Person {
+	private String Name;
+	private int age;
+	
+	
+	public Person() {
+		/*default Constructor*/
+	}
+	 
+	public Person(String Name ,int age) {
+		this.Name=Name;
+		this.age=age;
+	}
+	
+	public String getName() {
+		return Name;
+	}
+	public int getAge() {
+		return age;
+	}
+	@Override
+	public String toString() {
+		return getName()+" "+getAge();
+	}
+	public boolean equals(Object obj) {
+		Person Other =(Person) obj;
+		return 
+	}
+
+}

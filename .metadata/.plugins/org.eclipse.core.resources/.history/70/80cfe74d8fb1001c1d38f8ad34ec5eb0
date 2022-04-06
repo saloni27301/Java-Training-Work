@@ -1,0 +1,31 @@
+package com.harman.model;
+
+public class Product {
+	int Id;
+	String Name;
+	/*static data member*/
+	static int Tax;
+	public void setid(int Pid) {
+		Id=Pid;
+	}
+	public void setName(String name) {
+		Name=name;
+	}
+	
+	public static void settax(int tax) {
+		Tax=tax;
+	}
+	public int getid()
+	 {
+		 return Id;
+	 }
+	public String getName() {
+		return Name;
+	}
+	public int gettax()
+	{
+		return Tax;
+		
+	}
+	
+}

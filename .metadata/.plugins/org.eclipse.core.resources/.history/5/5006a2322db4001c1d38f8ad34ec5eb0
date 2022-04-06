@@ -1,0 +1,53 @@
+package com.harman.ui;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedHashSet;
+
+import com.harman.model.Employee;
+
+public class App7 {
+
+	public static void main(String[] args) {
+		Set<Employee> empset=new LinkedHashSet<>();
+		empset.add(new Employee(101,"Saloni",2400));
+		empset.add(new Employee(103,"Johnson",1200));
+		empset.add(new Employee(100,"Devus",24000));
+		empset.add(new Employee(108,"Priya",2200));
+		empset.add(new Employee(104,"Riya",32200));
+		empset.add(new Employee(104,"Riya",32200));
+		System.out.println(empset);
+		System.out.println("----------------------------------");
+		for(Employee employe:empset) {
+			System.out.println(employe);
+		}
+		Collections.sort(empset);
+		System.out.println("----------------------------------");
+		for(Employee employe:empset) {
+			System.out.println(employe);
+		}
+		Collections.sort(empset,NameComperator());
+		System.out.println("----------------------------------");
+		for(Employee employe:empset) {
+			System.out.println(employe);
+		}
+		Collections.sort(empset,SalaryComperator());
+		System.out.println("----------------------------------");
+		for(Employee employe:empset) {
+			System.out.println(employe);
+		}
+	}
+
+	private static Comparator SalaryComperator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static Comparator NameComperator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

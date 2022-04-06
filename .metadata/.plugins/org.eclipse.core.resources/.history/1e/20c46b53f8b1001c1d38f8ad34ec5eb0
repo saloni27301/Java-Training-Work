@@ -1,0 +1,28 @@
+package com.harman.model;
+
+public class ComplexNumber {
+	/*data members*/
+	public double realPart;
+	public double imaginaryPart;
+	/*Paramerised constructor*/
+	public ComplexNumber(double realPart,double imaginaryPart) {
+		this.realPart=realPart;
+		this.imaginaryPart=imaginaryPart;
+	}
+	public void setrealPart(int Real) {
+		realPart=Real;
+	}
+	public void setimaginaryPart(int imag)
+	{
+		imaginaryPart=imag;
+	}
+	
+	public double getrealPart() {
+		return realPart;
+	}
+	public double getimaginaryPart()
+	{
+		return imaginaryPart;
+	}
+
+}

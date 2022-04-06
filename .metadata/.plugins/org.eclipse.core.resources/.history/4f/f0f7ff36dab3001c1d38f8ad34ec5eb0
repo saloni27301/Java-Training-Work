@@ -1,0 +1,13 @@
+package com.harman.ui;
+
+import com.harman.model.Account;
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+		
+		Account first=new Account(101,"vidya",500);
+		System.out.println(first);
+	}
+
+}

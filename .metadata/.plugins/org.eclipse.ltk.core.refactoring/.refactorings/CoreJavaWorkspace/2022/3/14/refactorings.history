@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ToStartWithDemo&apos; to &apos;ToStartWith&apos;&#x0D;&#x0A;- Original project: &apos;CoreJavaWorkspace&apos;&#x0D;&#x0A;- Destination element: &apos;ToStartWith&apos;&#x0D;&#x0A;- Original element: &apos;ToStartWithDemo&apos;" description="Copy folder" destination="=ToStartWith" element1="ToStartWithDemo" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648554502274" units="0" version="1.0"/>
+</session>

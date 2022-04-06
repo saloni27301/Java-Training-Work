@@ -1,0 +1,32 @@
+package com.harman.ui;
+
+import com.harman.model.Employee;
+import com.harman.model.Manager;
+import com.harman.model.Person;
+
+import com.harman.model.StudentE;
+
+public class InheritanceApp {
+
+	public static void main(String[] args) {
+		
+		Person p1=new Person("priya",21);
+		Person p1=new Person("priya",21);
+		//System.out.println(p1.getName()+" "+p1.getAge());
+		
+		//System.out.println(p1);
+		System.out.println(p1.equals(2));
+		System.out.println(p1.toString());
+		StudentE p2=new StudentE("Johnson",25,3000.0);
+		System.out.println(p2.getName()+" "+p2.getAge()+" "+p2.getfee());
+
+			
+		Employee E1=new Employee("Savin",28,50000.0);
+		System.out.println(E1.getName()+" "+E1.getAge()+" "+E1.getSalary());
+		
+		
+		Manager M1=new Manager("Savin",28,50000.0,900000.0);
+		System.out.println(M1.getName()+" "+M1.getAge()+" "+M1.getSalary()+" "+M1.getBonus());
+	}
+
+}

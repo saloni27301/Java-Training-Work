@@ -1,0 +1,22 @@
+package com.harman.ui;
+
+public class App1 {
+
+	public static void main(String[] args) {
+		int FirstNumber =Integer.parseInt(args[0]);
+		int SecondNumber = Integer.parseInt(args[1]);
+		int Result;
+	
+		Result= FirstNumber+SecondNumber;
+		System.out.println("Sum = "+ Result);
+		
+		Result= FirstNumber-SecondNumber;
+		System.out.println("Difference = "+ Result);
+		
+		Result= FirstNumber/SecondNumber;
+		System.out.println("Quotient = "+ Result);
+		
+	
+	}
+
+}

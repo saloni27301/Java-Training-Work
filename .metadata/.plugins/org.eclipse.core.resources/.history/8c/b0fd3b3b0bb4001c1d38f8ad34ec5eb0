@@ -1,0 +1,36 @@
+package com.harman.model;
+
+public class Product2 {
+	private static int Id;
+	private String Name;
+	/*static data member*/
+	static int Tax;
+	public Product2()
+	{
+		Id=Id+1;
+	}
+	
+	public static  void setid(int id) {
+		Id=id;
+	}
+	public void setName(String Name) {
+		this.Name=Name;
+	}
+	/*we cannot use this keywords in static methods*/
+	public static void settax(int tax) {
+		Tax=tax;
+	}
+	public static  int getid()
+	 {
+		 return Id;
+	 }
+	public String getName() {
+		return Name;
+	}
+	public int gettax()
+	{
+		return Tax;
+		
+	}
+	
+}

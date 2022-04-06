@@ -1,0 +1,14 @@
+package com.harman.ui;
+
+public class ComplexNumberApp {
+
+	public static void main(String[] args) {
+		ComplexNumber C1= new ComplexNumber();
+		C1.realPart=10;
+		C1.imaginaryPart=20;
+		/*/We cannot directly print an objects in java,it gives us the package name,class name and hashcode of the object.*/
+		System.out.println(C1);
+		System.out.println(C1.realPart+" "+C1.imaginaryPart);
+	}
+
+}

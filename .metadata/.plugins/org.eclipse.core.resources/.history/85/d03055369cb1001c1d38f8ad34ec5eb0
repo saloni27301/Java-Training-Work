@@ -1,0 +1,44 @@
+package com.harman.model;
+
+import com.sun.tools.javac.util.Pair;
+
+public class Point {
+	int X1,X2,Y1,Y2;
+	
+	public void setX11(int x1) {
+		this.X1=x1;
+	}
+	public void setX12(int x2) {
+		this.X2=x2;
+	}
+	public void setY11(int Y1) {
+		this.Y1=Y1;
+	}
+	public void setY12(int Y2) {
+		this.Y2=Y2;
+	}
+	public int getX1() {
+		return X1;
+	}
+	public int getX12() {
+		return X2;
+	}
+	public int getY11() {
+		return Y1;
+	}
+	public int getY12() {
+		return Y1;
+	}
+	
+	public double distance() {
+		double dis=Math.sqrt((Y2-Y1)*(Y2-Y1)+(X2-X1)*(X2-X1));
+		return dis;
+	}
+	public double midpoint() {
+		double x=(X1+X2)/2;
+		double y =(Y1+Y2)/2;
+		System.out.println(x+" "+y);
+		
+		
+	}
+}

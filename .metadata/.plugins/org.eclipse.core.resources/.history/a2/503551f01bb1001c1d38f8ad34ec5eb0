@@ -1,0 +1,26 @@
+package com.harman.ui;
+
+import com.harman.model.ComplexNumber;
+
+public class ComplexNumberApp {
+
+	public static void main(String[] args) {
+		ComplexNumber C1= new ComplexNumber();
+		C1.setrealPart(10);
+		C1.setimaginaryPart(20);
+		
+		System.out.println(C1.getrealPart()+" "+C1.getimaginaryPart());
+		
+		ComplexNumber C2= new ComplexNumber();
+		C2.setrealPart(10);
+		C2.setimaginaryPart(20);
+		
+		System.out.println(C2.getrealPart()+" "+C2.getimaginaryPart());
+		/*We cannot directly print an objects in java,it gives us the package name,class name and hashcode of the object.*/
+		System.out.println(C1);
+		System.out.println(C2);
+		System.out.println(C1.hashCode());
+		System.out.println(C2.hashcode());
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.harman.model;
+
+public class Rectangle {
+
+	public Rectangle() {
+		/*Default Constructor*/
+	}
+	
+
+}

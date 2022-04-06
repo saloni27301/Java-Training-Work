@@ -1,0 +1,14 @@
+package com.harman.ui;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class InsertDemo {
+
+	public static void main(String[] args) {
+		Connection con = null;
+		Statement st = null;
+		Class.forName()
+	}
+
+}
